@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 
 const userRoute = require('./routes/user.route');
 const authRoute = require('./routes/auth.route');
+const productRoute = require('./routes/product.route');
 
 dotenv.config();
 const app = express();
@@ -18,8 +19,9 @@ const connect = async () => {
     })
 }
 
-app.use("/api/users", userRoute);
 app.use("/api/auth",authRoute);
+app.use("/api/users", userRoute);
+app.use("/api/products",productRoute);
 
 app.listen(5000, () => {
 
