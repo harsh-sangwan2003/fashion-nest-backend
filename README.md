@@ -33,7 +33,7 @@ You may also see any lint errors in the console.
 
 ## Usage
 
-A React.js project, redefines fashion exploration. Discover trends, curate style boards, and engage with a vibrant fashion community seamlessly.
+Fashion-Nest-Backend, powered by Node.js, fuels the fashion platform. Enables seamless data management, user interactions, and robust functionalities for Fashion-Nest.
 
 Click on
 
